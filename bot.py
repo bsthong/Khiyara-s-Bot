@@ -24,7 +24,7 @@ async def ping():
 
 def is_me():
     def predicate(ctx):
-        return ctx.message.author.id == 289064922824966145
+        return ctx.message.author.id == 330716969403809794
     return commands.check(predicate)
 
 @bot.command
@@ -318,4 +318,4 @@ bot.add_cog(Music(bot))
 print('Music is loaded')             
     
 import os
-bot.run("NDA3MDk1NjkxMTIzNjIxODg4.DU84jw.ZvnfWWrhRIkMuRd6DE1aGp2KQR8")
+bot.run("NDQ4NDk2NzU5MzUwNzU1MzI4.DeW-rA.UTVgRm94zkiSonb-8RnyhZftqgA")
